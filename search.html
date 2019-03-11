@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+    <title>搜索</title>
+    <link rel="stylesheet" href="css/search.css" />
+</head>
+
+<body style="overflow-x: hidden;background: #FAFAFC;">
+
+<div class="top">
+    <div class="header"></div>
+</div>
+
+
+<!-- 搜索 内容 -->
+    <!-- PC端 -->
+	<div class="mainPC">
+    <div class="t1 t2">搜索结果/无搜索结果</div>
+    <div class="t1">2018年第四届金陵肿瘤学论坛：聚焦肿瘤治疗进展 <span class="d1"></span>  </div>
+    <div class="t1">2018年第四届金陵肿瘤学论坛：聚焦肿瘤治疗进展 <span class="d1"></span>  </div>
+    <div class="t1">2018年第四届金陵肿瘤学论坛：聚焦肿瘤治疗进展 <span class="d1"></span>  </div>
+  </div>
+  <div class="content">
+  		 <div class="fenye">
+            <div class="f-left">
+                <span></span>
+                <div class="jutifenye">
+                    <span>1</span>
+                    <span class="actives">2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>......</span>
+                    <span>9</span>
+                </div>
+                <span></span>
+            </div>
+            <div class="f-right">
+                	至 <input type="text">页
+            </div>
+            <button class="nsure">确定</button>
+        </div>
+  </div>
+  
+
+
+<footer class="bottom"></footer>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script>
+
+$(document).ready(function() {
+				$(".header").load("nav.html");
+				$(".bottom").load("footer.html");
+		});
+
+
+   window.addEventListener(('orientationchange' in window ? 'orientationchange' : 'resize'), (function () {
+        function c() {
+            var d = document.documentElement;
+            var cw = d.clientWidth || 772;
+            d.style.fontSize = (20 * (cw / 375)) > 40 ? 40 + 'px' : (20 * (cw / 375)) + 'px';
+        }
+
+        c();
+        return c;
+
+    })(), false);
+
+
+
+
+   
+</script>
+
+</body>
+</html>

@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+		<title>员工详情</title>
+		<link rel="stylesheet" href="css/personnel.css" />
+		<link rel="stylesheet" href="css/nav.css" />
+        <link rel="stylesheet" href="css/personnelDetails.css" />
+	</head>
+
+	<body>
+		<div class="top">
+			<div class="header"></div>
+		</div>
+		<div class="banner pc">
+			<h1>加入绿叶</h1>
+		</div>
+		<div class="banner mobile">
+						<img src="img/joinUs/sm/sm_banner.jpg" class="sm_banner" width="100%">
+						<div class="banner_title">加入绿叶</div>
+					</div>
+		<div class="content">
+			<!--背景图-线-->
+			<img class="line1" src="img/joinUs/personnel/line.png" />
+			<!--我们的员工-->
+			<div class="containe">
+				
+				<!-- <div class="top-heade">
+					<div class="ydpw1">
+						<a href="joinUs.html"><span>加入绿叶 </span></a><span>></span><a href="personnel.html"><span> 我们的员工 </span></a><span>></span><span> 员工详情 </span>
+					</div>
+				</div>
+				<div class="toptitle">
+					<div class="girln">
+						给女性职业经理人充分的发展空间<span class="tt1"></span>
+					</div>
+					<div>
+							<span>
+									姜华 
+					
+								</span> <br>
+						<span>
+                绿叶制药集团战略发展及业务拓展副总裁
+
+            </span>
+						<span class="qqwwll">
+                分享到:
+                <span>
+                    <img src="newsxiangqing/phone/weibo.png" alt="">
+                </span>
+						<span>
+                     <img src="newsxiangqing/phone/weixin.png" alt="">
+                </span>
+						<span>
+                     <img src="newsxiangqing/phone/qq.png" alt="">
+                </span>
+						</span>
+					</div>
+				</div>
+				<div class="content-inf personelDetail1">
+					<img src="img/joinUs/employee1.jpg" alt="" class="jianghual">
+					<div>
+							<p class="ans">你认为绿叶制药是一家什么样的公司？</p>
+							<p>绿叶制药集团是一家很独特的公司，产品比较有特色，产品线的设计和管理非常好，企业自主研发能力高，公司员工专业水平强，追求完美，困难面前决不退缩。
+								实际上这反映了企业有很好的战略规划能力。公司从1994年成立就确定了企业的核心价值观，长期愿景目标以及十年规划目标，而且之后的每年都矢志以恒地不
+								断推进，完善和创新。人才和科技，一直是推动企业发展的两个轮子，而近二十五年的坚持，让这驾马车的加速度不断提升。同时我非常欣喜地看到公司的国际化
+								进程不断加速，并取得可喜的成果。绿叶制药成为世界知名的国际化制药公司这一愿景深入每名员工的心中，公司的各项工作都把国际标准作为自身管理的标准。
+							</p>
+							<br />
+						<p class="ans">你认为自己在绿叶制药最大的收获是什么？</p>
+						<p>从1998年加盟绿叶制药以来，至今我已在绿叶制药工作了二十
+							个年头，我个人最大的收获就是职业发展空间的提升：从懵懂毕业生成长成为企业高管，绿叶制药给了女性职业经理人充分的发展空间。绿叶制药具有典型的学习型组织的特点，在这种组织中，跨行业知识的学习让我受益匪浅，也弥补了自己本身专业所限在医药行业发展的不足。
+						</p>
+						<br />
+						<p class="ans">你如何评价绿叶制药的企业文化？</p>
+						<p>绿叶制药有着非常优秀的企业文化和员工关怀，让我充分享受爱与被爱的感觉，让我随时随地拥有工作的激情和勇于承担责任的心态。佛家有句偈语，叫做：“一叶一菩提，一花一世界”，意思是说任何事物，小到一草一木都有一个属于它自己的故事。2009年6月，我就拿到了公司为工作十年以上老员工颁发的白金叶子，这片沉甸甸的白金叶子，代表了我在绿叶制药的故事，我由衷地希望自己能在未来的日子里，将这个故事书写得更美好，让绿叶制药绽放得更饱满，更富有生命力！
+						</p>
+					</div>
+				</div> -->
+
+				
+			</div>
+		</div>
+		</div>
+
+		
+		<div class="toTop">
+			<img src="img/index/toTop.png" />
+		</div>
+		<div class="syy">
+			<img src="img/Investor/aa.png" alt="">
+		</div>
+
+
+		<div class="bottom">
+
+		</div>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script>
+
+function getUrlParam(name) {//a标签跳转获取参数
+	    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+	    var r = window.location.search.substr(1).match(reg);
+	    if (r != null) return (r[2]); return null;
+	}
+	$(function(){
+		var per = getUrlParam('per');
+	    if(per == "1") {
+			var res='<div class="top-heade">'+
+					'<div class="ydpw1">'+
+						'<a href="joinUs.html"><span>加入绿叶 </span></a><span>></span><a href="personnel.html"><span> 我们的员工 </span></a><span>></span><span> 员工详情 </span>'+
+					'</div>'+
+				'</div>'+
+				'<div class="toptitle">'+
+					'<div class="girln">'+
+						'给女性职业经理人充分的发展空间'+
+					'</div>'+
+					'<div>'+
+							'<span>'+
+									'姜华 '+
+					
+								'</span> <br>'+
+						'<span class="tmdm">'+
+                '绿叶制药集团战略发展及业务拓展副总裁'+
+
+            '</span>'+
+						'<span class="qqwwll">'+
+                '分享到:'+
+                '<span>'+
+                    '<img src="newsxiangqing/phone/weibo.png" alt="">'+
+                '</span>'+
+						'<span>'+
+                     '<img src="newsxiangqing/phone/weixin.png" alt="">'+
+                '</span>'+
+						'<span>'+
+                     '<img src="newsxiangqing/phone/qq.png" alt="">'+
+                '</span>'+
+						'</span>'+
+					'</div>'+
+				'</div>'+
+				'<div class="content-inf personelDetail1">'+
+					'<div class="jianghual"><img src="img/joinUs/employee1.jpg" alt=""></div>'+
+					'<div>'+
+						'<p class="jkb9">姜华于1998年加入绿叶制药，毕业于复旦大学世界经济系国际贸易专业</p>'+
+							'<p class="ans">你认为绿叶制药是一家什么样的公司？</p>'+
+							'<p class="cnmp">绿叶制药集团是一家很独特的公司，产品比较有特色，产品线的设计和管理非常好，企业自主研发能力高，公司员工专业水平强，追求完美，困难面前决不退缩。'+
+								'实际上这反映了企业有很好的战略规划能力。公司从1994年成立就确定了企业的核心价值观，长期愿景目标以及十年规划目标，而且之后的每年都矢志以恒地不'+
+								'断推进，完善和创新。人才和科技，一直是推动企业发展的两个轮子，而近二十五年的坚持，让这驾马车的加速度不断提升。同时我非常欣喜地看到公司的国际化'+
+								'进程不断加速，并取得可喜的成果。绿叶制药成为世界知名的国际化制药公司这一愿景深入每名员工的心中，公司的各项工作都把国际标准作为自身管理的标准。'+
+							'</p>'+
+							'<br />'+
+						'<p class="ans">你认为自己在绿叶制药最大的收获是什么？</p>'+
+						'<p class="cnmp">从1998年加盟绿叶制药以来，至今我已在绿叶制药工作了二十'+
+							'个年头，我个人最大的收获就是职业发展空间的提升：从懵懂毕业生成长成为企业高管，绿叶制药给了女性职业经理人充分的发展空间。绿叶制药具有典型的学习型组织的特点，在这种组织中，跨行业知识的学习让我受益匪浅，也弥补了自己本身专业所限在医药行业发展的不足。'+
+						'</p>'+
+						'<br />'+
+						'<p class="ans">你如何评价绿叶制药的企业文化？</p>'+
+						'<p class="cnmp">绿叶制药有着非常优秀的企业文化和员工关怀，让我充分享受爱与被爱的感觉，让我随时随地拥有工作的激情和勇于承担责任的心态。佛家有句偈语，叫做：“一叶一菩提，一花一世界”，意思是说任何事物，小到一草一木都有一个属于它自己的故事。2009年6月，我就拿到了公司为工作十年以上老员工颁发的白金叶子，这片沉甸甸的白金叶子，代表了我在绿叶制药的故事，我由衷地希望自己能在未来的日子里，将这个故事书写得更美好，让绿叶制药绽放得更饱满，更富有生命力！'+
+						'</p>'+
+					'</div>'+
+				'</div>';
+				// console.log(res);
+			$(".containe").html(res)
+						
+	    }else if(per == "2") {
+	     	var res='<div class="top-heade">'+
+		 			'<div class="ydpw1">'+
+		 				'<a href="joinUs.html"><span>加入绿叶 </span></a><span>></span><a href="personnel.html"><span> 我们的员工 </span></a><span>></span><span> 员工详情 </span>'+
+		' 			</div>'+
+		' 		</div>'+
+				'<div class="toptitle">'+
+		 			'<div class="girln">'+
+		'国际化战略和创新机制吸引了我'+
+		'</div>'+
+		'<div>'+
+		'<span>'+
+		'王广泉 '+
+					
+		'</span> <br>'+
+		'<span class="tmdm">'+
+		'绿叶制药集团生物药技术转移及商业化生产（含CMO）副总裁'+
+
+        '</span>'+
+		'<span class="qqwwll">'+
+        '分享到:'+
+        '<span>'+
+        '<img src="newsxiangqing/phone/weibo.png" alt="">'+
+        '</span>'+
+		'<span>'+
+        '<img src="newsxiangqing/phone/weixin.png" alt="">'+
+        '</span>'+
+		'<span>'+
+        '<img src="newsxiangqing/phone/qq.png" alt="">'+
+        '</span>'+
+		'</span>'+
+		'</div>'+
+		'</div>'+
+		'<div class="content-inf personelDetail1">'+
+		'<div class="jianghual"><img src="img/joinUs/employee2.jpg" alt=""></div>'+
+		'<div>'+
+		'<p class="ans"></p>'+
+		'<p class="cnmp">王广泉博士负责生物药技术转移及商业化生产业务、参与微球等国际化项目工作，以及CMO新业务拓展工作。王广泉博士拥有工程和管理双重教育背景，先后在美国北卡罗来纳州立大学攻读化学工程博士和美国杜克大学攻读工商管理硕士学位。曾在美国夏尔制药任全球技术运营（生产）支持实验室总负责人。在生物药品制备工艺开发、技术转移、工艺验证和药品生产质量管理规范（GMP）条件下的商业化生产，及生产基地的设计、建设和GMP认证等方面有近15年的实践经验。'+
+		'<br/>'+
+		'<br/>'+
+		'座右铭：Two things define you: Your patience when you have nothing, and your attitude when you have everything（有两件事可以定义你：当你一无所有时你的耐心，和当你拥有一切时你的态度）'+
+		'</p>'+
+		'<br />'+
+						
+		'<p class="ans">为什么选择到绿叶制药工作？</p>'+
+		'<p class="cnmp">绿叶制药最吸引我的是其国际化战略和创新机制。绿叶制药的全球研发，全球制造和全球市场的国际战略为实现到2025年成为全球前50的制药企业的目标奠定了坚实基础。同时绿叶制药秉承专业技术服务于人类健康，其创新不仅体现在产品的提前布局和相应的研究开发投入，而且着重于整个产品价值链的创新，比如在制造科学与技术，卓越运营及工厂数字化智能化方面的创新。作为中国本土企业，绿叶制药在全球的扩张及前景令人兴奋，但也面临挑战，比如如何处理不同国家企业文化的冲突，实现合作共赢。我1998年离开中国赴美留学，在美国学习工作20年。我希望我在中国及美国的经历可以帮助绿叶制药推动其国际化进程，使其尽快成为全球最受尊敬的制药企业之一。另外，烟台是一个非常美丽的海滨城市，非常适合工作与生活。'+
+		'</p>'+
+		'<br />'+
+						
+		'<p class="ans">你在绿叶从事什么工作？有什么值得分享的心得？</p>'+
+		'<p class="cnmp">我在绿叶制药负责生物药的技术转移和商业化生产。作为中国国内制药业中的新兴领域，生物药前景广阔，但处于初始阶段，有很长的路要走，特别在生产质量管理方面与西方发达国家存在相当差距。欣慰的是我们拥有一支年轻，朝气蓬勃，求知若渴的团队。我目前的工作重点是培训和激励绿叶的生物药制造团队，建立与国际接轨的生产质量管理理念与体制，推动生物药项目顺利进行。'+
+		'</p>'+
+		'<br />'+
+						
+		'<p class="ans">工作中的什么时刻让你有成就感？</p>'+
+		'<p class="cnmp">从事药品的生产管理，我知道我们生产放行的每一批产品都会直接影响到病人。我们做好自己的工作，每次及时供应高质量的产品时就觉得是对病人最好的帮助，非常有成就感。另外作为公司的管理者，看到团队每天朝着我们预定的目标与期望快速成长，同时吸引更多的有志于推动中国生物药国际化的有志之士加入绿叶制药，非常有自豪感与成就感。</p>'+
+		'<br />'+
+		
+		'<p class="ans">你想对年轻的毕业生说点什么？</p>'+
+		'<p class="cnmp">学校与工作是很不同的环境，年轻的毕业生要做好角色转变的准备，可能会栽跟头，但这不是坏事情。对毕业生来说，漂亮的书本知识和聪明的脑袋瓜可能没有你想象的那么重要，好的工作态度，合作共赢的团队精神和保持不断学习的能力会使你的职业道路越走越宽广。</p>'+
+		'</div>'+
+		'</div>';
+		$(".containe").html(res)
+	     }else if(per=="3") {
+	    var res='<div class="top-heade">'+
+		'<div class="ydpw1">'+
+		'<a href="joinUs.html"><span>加入绿叶 </span></a><span>></span><a href="personnel.html"><span> 我们的员工 </span></a><span>></span><span> 员工详情 </span>'+
+		'</div>'+
+		'</div>'+
+		'<div class="toptitle">'+
+		'<div class="girln">'+
+		'绿叶制药是一个开放与包容的全球大家庭'+
+		'</div>'+
+		'<div>'+
+		'<span>'+
+		'Tim Maguire '+
+					
+		'</span> <br>'+
+		'<span class="tmdm">'+
+		'绿叶制药集团美国研发中心业务拓展总监'+
+
+        '</span>'+
+		'<span class="qqwwll">'+
+        '分享到:'+
+        '<span>'+
+        '<img src="newsxiangqing/phone/weibo.png" alt="">'+
+        '</span>'+
+		'<span>'+
+        '<img src="newsxiangqing/phone/weixin.png" alt="">'+
+        '</span>'+
+		'<span>'+
+        '<img src="newsxiangqing/phone/qq.png" alt="">'+
+        '</span>'+
+		'</span>'+
+		'</div>'+
+		'</div>'+
+		'<div class="content-inf personelDetail1">'+
+		'<div class="jianghual"><img src="img/joinUs/employee3.jpg" alt=""></div>'+
+		'<div>'+
+		'<p class="ans">当初为什么选择到绿叶工作？</p>'+
+		'<p class="cnmp">绿叶吸引我的原因在于它始终坚持投入创新技术，追求科学卓越。绿叶每年在创新研发的投入高达数亿元，我相信一家注重科研的公司能够获得长足发展，也相信我在这样一家公司工作能够得到充分的信任与尊重。绿叶的开放与包容使它吸引了多位国际知名的科学家和业内精英，与他们一起工作，我感到非常开心。'+
+								
+		'</p>'+
+		'<br />'+
+						
+		'<p class="ans">你在绿叶从事什么工作？</p>'+
+		'</p>'+
+		'<p class="cnmp">我的工作职责是在全球范围内甄别和开发新技术，并通过投资或购买的方式来获得与绿叶研发战略相符合的技术。</p>'+
+		'<br />'+
+						
+		'<p class="ans">你的日常工作包括哪些方面？</p>'+
+		'<p class="cnmp">每天我都会与位于波士顿的两个科学小组（制剂和生物技术研究）召开一个快速的项目回顾会议，了解当前的研发管线。我把大部分时间花在甄别新技术上，与我们的科学团队严谨地审核这些技术，并促进这些技术的谈判和交易的完成。'+
+		'</p>'+
+		'<br />'+
+						
+		'<p class="ans">绿叶的公司文化是怎样的？</p>'+
+		'<p class="cnmp">绿叶是一个全球性的大家庭，一个很有吸引力的工作场所。不同肤色、不同文化背景的人因为对科学研究的热爱和对人类健康的关注而齐聚这里，大家相互信任、相互理解、相互帮助，一起突破工作中的难题。绿叶有一种神奇的力量，指引着大家跨越时差、超越种族、突破文化的桎梏向着同一个目标携手迈进。</p>'+
+		'<br />'+
+		'<p class="ans">你想对年轻的毕业生说点什么？</p>'+
+		'<p class="cnmp">要从全球视角来看待问题。我们生活在一个紧密相连的世界，尤其是在制药这个以技术为重的行业。你会发现你得出的解决方案也会影响其他方面。未来我们无论从事什么样的工作，一定要跳出工作本身，站在不同的视角看待问题，这样会帮助我们打开思路走出当前困境。另外，选择一个广阔的平台也很重要，这样你的视野才能不断得到拓展。</p>'+
+		'</div>'+
+		'</div>';
+		$(".containe").html(res)
+		}else if(per == "4") {
+	    var res='<div class="top-heade">'+
+				'<div class="ydpw1">'+
+						'<a href="joinUs.html"><span>加入绿叶 </span></a><span>></span><a href="personnel.html"><span> 我们的员工 </span></a><span>></span><span> 员工详情 </span>'+
+		'</div>'+
+		'</div>'+
+		'<div class="toptitle">'+
+		'<div class="girln">'+
+		'在细节处学习身边人的闪光点'+
+		'</div>'+
+		'<div>'+
+		'<span>'+
+		'阎雅盟 '+
+					
+		'</span> <br>'+
+		'<span class="tmdm">'+
+		'绿叶制药集团人力资源部 HR BP'+
+        '</span>'+
+		'<span class="qqwwll">'+
+        '分享到:'+
+        '<span>'+
+        '<img src="newsxiangqing/phone/weibo.png" alt="">'+
+        '</span>'+
+		'<span>'+
+        '<img src="newsxiangqing/phone/weixin.png" alt="">'+
+        '</span>'+
+		'<span>'+
+        '<img src="newsxiangqing/phone/qq.png" alt="">'+
+        '</span>'+
+		'</span>'+
+		'</div>'+
+		'</div>'+
+		'<div class="content-inf personelDetail1">'+
+		'<div class="jianghual"><img src="img/joinUs/employee4.jpg" alt=""></div>'+
+		'<div>'+
+	    '<p class="jkb9">阎雅盟于2016年11月10日加入绿叶制药。毕业于山东大学外国语学院英语系，毕业后曾在阿斯利康（中国）政府事务及市场准入部工作。</p>'+
+		'<p class="ans">加入绿叶制药后有什么感想？</p>'+
+		'<p class="cnmp">刚刚加入公司的心情充满了新奇和激动，绿叶富有活力及人文关怀的氛围，从第一天开始便深深吸引了我。绿叶近年业务的快速发展，我们的工作内容也更加充实并且具有挑战，各类会议、项目的跟进组织，让我有更多深入了解业务的机会，同时也让我看到周围更多优秀的同事，他们怀抱激情和理想，始终以专业的态度对待各项工作，从他们的身上总能发现让我学习的闪光点。而绿叶工作之余的活动更是丰富多彩，舞林大会、绿叶好声音以及各类小绿叶人的探索之旅，让我深深的觉得，能成为绿叶家庭的一员，很幸福。'+
+								
+		'</p>'+
+		'<br />'+
+						
+		'<p class="ans">工作中的什么时刻让你有成就感？</p>'+
+		'<p class="cnmp">热爱自己的工作，用心做好每件事。尤其是在团队协作的项目中，当任务终于完成后，会觉得之前的所有努力都看到了结果，过程中的种种困难，回头看去，都不再那么可怕，反而正是有了这些波折，才让大家更加坚定目标共同克服困难，才让一段工作旅程更值得回味，体会共同的艰辛，分享共同的喜悦，成为彼此的力量。'+
+		'</p>'+
+		'</div>'+
+		'</div>';
+			$(".containe").html(res)
+	     } else if(per == "5") {
+	    var res='<div class="top-heade">'+
+		'<div class="ydpw1">'+
+		'<a href="joinUs.html"><span>加入绿叶 </span></a><span>></span><a href="personnel.html"><span> 我们的员工 </span></a><span>></span><span> 员工详情 </span>'+
+		'</div>'+
+		'</div>'+
+		'<div class="toptitle">'+
+		'<div class="girln">'+
+		'从发现问题、解决问题的过程中学习成长'+
+		'</div>'+
+		'<div>'+
+				'<span>'+
+		'余飞 '+
+					
+		'</span> <br>'+
+		'<span class="tmdm">'+
+		'绿叶制药集团研发中心分析研究部总监'+
+
+        '</span>'+
+		'<span class="qqwwll">'+
+        '分享到:'+
+        '<span>'+
+        '<img src="newsxiangqing/phone/weibo.png" alt="">'+
+        '</span>'+
+		'<span>'+
+        '<img src="newsxiangqing/phone/weixin.png" alt="">'+
+        '</span>'+
+		'<span>'+
+        '<img src="newsxiangqing/phone/qq.png" alt="">'+
+        '</span>'+
+		'</span>'+
+		'</div>'+
+		'</div>'+
+		'<div class="content-inf personelDetail1">'+
+		'<div class="jianghual"><img src="img/joinUs/employee5.jpg" alt=""></div>'+
+		'<div>'+
+		'<p class="ans">自从你加入之后，你对绿叶的印象如何？</p>'+
+		'<p class="cnmp">最大的印象是绿叶员工对待工作的积极态度和表现出来的求知欲，这一点在这几年绿叶国际化的进程中表现的特别明显。绿叶制药鼓励创新，每年公司在激励员工创新方面都有很大的投入。正是公司的巨大投入和员工的不懈努力，将绿叶的发展不断推向新的高度。'+
+								
+		'</p>'+
+		'<br />'+
+						
+		'<p class="ans">你在绿叶从事什么工作？有什么值得分享的心得？</p>'+
+		'<p class="cnmp">目前我主要负责绿叶制药研发中心的分析研究工作。任何项目的推动都离不开所有部门的协同合作，跨部门的协同经常决定了项目推进的速度。当前多个研发项目同时推进，充分考验着研发中心各个部门的协同作战能力。然而，绿叶研发人一直以能以积极开放、拥抱彼此的胸怀来处理跨部门沟通问题，这使得工作进展快速而高效。'+
+		'</p>'+
+		'<br />'+
+						
+		'<p class="ans">你在绿叶是如何成长的？</p>'+
+		'<p class="cnmp">研发人以创新为本。我们的工作就是不断去发现问题、然后解决问题。我有一个非常棒的团队，我们经常一起学习讨论，一起在解决问题的过程中学习成长。每个人都需要有成长的土壤，而这个团结进取、不断开拓的团队于我就是最好的土壤。'+
+		'</p>'+
+		'<br />'+
+						
+		'<p class="ans">工作中的什么时刻让你有成就感？</p>'+
+		'<p class="cnmp">每个人都是需要被激励的。当员工的能力被挖掘，当员工的才华有展示的舞台，无疑他是有成就感的，于我同样如此。公司的文化包容、上进、精益求精，注重对员工的关怀与激励，员工只要有梦想且能够为此付出努力，就一定能登上更大的舞台。</p>'+
+		'<br />'+
+		
+		'<p class="ans">你想对年轻的毕业生说点什么？</p>'+
+		'<p class="cnmp">年轻是人生最宝贵的财富。大好的青春时光一定要有明确的职业目标和人生目标，积极学习，仔细经营，只要肯付出努力，就没有什么不可能!</p>'+
+		'</div>'+
+		'</div>'
+			$(".containe").html(res)
+	     }else if(per == "6") {
+	    var res='<div class="top-heade">'+
+		'<div class="ydpw1">'+
+		'<a href="joinUs.html"><span>加入绿叶 </span></a><span>></span><a href="personnel.html"><span> 我们的员工 </span></a><span>></span><span> 员工详情 </span>'+
+		'</div>'+
+		'</div>'+
+		'<div class="toptitle">'+
+		'<div class="girln">'+
+		'绿叶制药是一家关注员工成长的公司'+
+		'</div>'+
+		'<div>'+
+		'<span>'+
+		'张瑞杰'+ 
+					
+		'</span> <br>'+
+		'<span class="tmdm">'+
+		'绿叶制药集团临床医学中心医学经理'+
+
+        '</span>'+
+		'<span class="qqwwll">'+
+        '分享到:'+
+        '<span>'+
+        '<img src="newsxiangqing/phone/weibo.png" alt="">'+
+        '</span>'+
+		'<span>'+
+        '<img src="newsxiangqing/phone/weixin.png" alt="">'+
+        '</span>'+
+		'<span>'+
+        '<img src="newsxiangqing/phone/qq.png" alt="">'+
+        '</span>'+
+		'</span>'+
+		'</div>'+
+		'</div>'+
+		'<div class="content-inf personelDetail1">'+
+		'<div class="jianghual"><img src="img/joinUs/employee7.jpg" alt=""></div>'+
+		'<div>'+
+		'<p class="jkb9">2014年毕业于首都医科大学，硕士学位，现任职绿叶制药集团临床医学中心医学经理职位 </p>'+
+		'<p class="ans">你的工作最令你满意的一点是什么？</p>'+
+		'<p class="cnmp">工作中，我很荣幸能够与很多非常优秀的同事携手共事，同大家一同学习和成长。在经历整个制药行业大变革的背景下，我国的制药行业正从市场驱动、政策驱动逐渐走向研发驱动、创新驱动。临床研究作为新药从实验室推向市场的关键研发环节，正变的越来越举足轻重。'+
+		'<br/>'+
+		'<br/>'+
+		'在临床医学研究中心，你可以接触到形形色色有着不同背景的优秀同事，他们有的来自国内顶尖医院重点科室的临床大夫，有的来自著名院校重点实验室的出色学子，有的是海外学成归来的青年才俊，有的是深耕药物临床开发多年、具有国际大公司丰富工作经验的行业翘楚，他们每个人身上都有特别闪光的东西令我印象深刻，获益匪浅。和这么多优秀的同事为着共同的目标齐心协力，在赢得个人工作成绩的同时，大家时常会产生强大的协同效应，在精诚团结、互相学习的氛围中让每个人的个人价值更上一层楼。'+
+		'</p>'+
+		'<br />'+
+						
+		'<p class="ans">你在绿叶是如何成长的？</p>'+
+		'<p class="cnmp">绿叶制药是一家非常关注员工成长的公司。来到公司已经四年多，四年间，我从初出茅庐、懵懂无知的应届毕业生，逐步成长蜕变为可以独当一面的业务骨干。这四年，是公司飞速发展的四年，也是我学习成长的四年。'+
+		'<br/>'+
+		'<br/>'+
+		'临床研究作为新药研发最后也是最为关键的一个环节，我们不但需要同临床中心各层级的临床大夫和工作人员打交道，也需要同临床前几乎所有的业务部门进行合作。业务问题的多样性和复杂性给了我丰富的学习和成长机会。工作中，领导会安排我承接不同难度的项目，这样我就能不断接触到新事物，积累更多的经验。同时，公司专注于利用各层级的内外部培训和发展计划使得员工能够快速成长或在短期内掌握行业专业知识。此外，高级管理人员性格随和，会定期的同员工进行交流，认真听取项目遇到的困难及问题，使得整个工作氛围健康而轻松。员工对自己更有信心，对未来也更加清晰。'+
+		'</p>'+
+		'<br />'+
+						
+		'<p class="ans">你想对年轻的毕业生说点什么？</p>'+
+		'<p class="cnmp">作为曾经的年轻毕业生，刚离开学校进入工作环境中，一样存在着对新环境的努力适应以及对未来不确定的焦虑和迷茫。我想对年轻的毕业生说，一定不要太浮躁，切勿好高骛远，眼高手低。可以通过制定可行性目标，摒弃急功近利的思维，让自己稳步快速的成长。对于刚开始工作和想谋求更高发展的人来说，绿叶制药都是一个优秀的平台。多方面的成长与晋升机会，切实可行的发展计划，丰富的培训与交流机制，都让公司变的充满吸引力。'+
+		'</p>'+
+		'<br />'+
+		
+		'<p class="ans">工作之外，你有什么兴趣爱好？</p>'+
+		'<p class="cnmp">工作之余我比较热爱阅读，阅读能够充实自己，增加知识并增长见闻。阅读专业领域的书籍，对提升自己的工作能力有很大的帮助。阅读一些优秀人物的传记，能让自己的视野、心胸更加宽阔，看问题更有深度和不一样的角度。'+
+		'<br/>'+
+		'另外，我也比较喜欢运动。比如定期去健身房锻炼，周末约三五好友一起爬山。运动不但能够带来健康和使人精力充沛，还能培养我坚韧的意志和遇事果断的魄力。'+
+		'</p>'+
+		'<br/>'+
+						
+		'<p class="ans">公司的企业文化对你最有启发的一点是什么？</p>'+
+		'<p class="cnmp">习近平总书记曾说过“创新是引领发展的第一动力”，而绿叶制药的企业核心文化是“创新成就卓越”。纵观整个制药工业，那些伟大的公司都是坚持秉承创新作为公司发展的重要驱动力。自公司成立以来，始终坚持在研发领域的持续投入并以创新为驱动力。公司在微球、脂质体、透皮释药、皮下植入等新型给药系统方面保持在国内和国际的先进水平，并开始布局CAR-T、核酸药物、大分子单抗等新型药物或疗法。我深刻认同公司的这一企业文化，坚定的认为只有持续不断的创新，才是一个企业由普通变成伟大核心因素。受惠于国家政策的驱使，以及前期人才和经验的积累，我国的新药研发正逐步进入快车道。我相信“创新成就卓越”的这一核心文化理念将会更好的践行在公司未来的发展中。</p>'+
+		'</div>'+
+		'</div>'
+			$(".containe").html(res)
+	   }else if(per == "7") {
+	    	var res='<div class="top-heade">'+
+					'<div class="ydpw1">'+
+		'<a href="joinUs.html"><span>加入绿叶 </span></a><span>></span><a href="personnel.html"><span> 我们的员工 </span></a><span>></span><span> 员工详情 </span>'+
+		'</div>'+
+		'</div>'+
+		'<div class="toptitle">'+
+		'<div class="girln">'+
+		'抓住各种机会不断历练'+
+		'</div>'+
+		'<div>'+
+		'<span>'+
+		'王超 '+
+					
+		'</span> <br>'+
+		'<span class="tmdm">'+
+		'山东绿叶工程二部经理'+
+
+        '</span>'+
+		'<span class="qqwwll">'+
+        '分享到:'+
+        '<span>'+
+        '<img src="newsxiangqing/phone/weibo.png" alt="">'+
+        '</span>'+
+		'<span>'+
+        '<img src="newsxiangqing/phone/weixin.png" alt="">'+
+        '</span>'+
+		'<span>'+
+        '<img src="newsxiangqing/phone/qq.png" alt="">'+
+        '</span>'+
+		'</span>'+
+		'</div>'+
+		'</div>'+
+		'<div class="content-inf personelDetail1">'+
+		'<div class="jianghual"><img src="img/joinUs/employee6.jpg" alt=""></div>'+
+		'<div>'+
+		'<p class="ans">当初为什么选择到绿叶制药工作？</p>'+
+		'<p class="cnmp">选择一家公司很重要的一点在于是否认可这家公司的价值观，这个公司是否有愿景？绿叶制药在成立之初就确立了“专业技术服务于人类健康”的崇高理念，确定了要成为受人尊敬、全球领先的国际化制药公司的愿景，正是这样的价值观和愿景会吸引我成为其中的一员。'+
+		'</p>'+
+		'<br />'+
+		'<p class="ans">你在绿叶是如何成长的？</p>'+
+		'<p class="cnmp">个人的成长除了自身的努力外，也离不开组织的力量和宽阔的平台。在绿叶制药你会感觉到组织在驱使你要不断学习，不断进步，公司提供了各种各样的历练机会，正式通过这些实践历练才使自己真正得到了成长。当然自己一定要做一个善于学习的有心人，要会学习、会总结并学以致用。'+
+		'</p>'+
+		'<br />'+
+		'<p class="ans">你如何形容公司的文化？</p>'+
+		'<p class="cnmp">创新已溶入了绿叶文化的血液中，追求卓越是每位绿叶人的工作目标，诚信是每位绿叶人的行为准则，合作是绿叶组织之魂。绿叶秉承客户导向，把客户利益放在首位；秉承高效运营，为客户公司创造更多的价值；秉承以人为本、成就员工。'+
+		'</p>'+
+		'<br />'+
+		'<p class="ans">你想对年轻的毕业生说点什么？</p>'+
+		'<p class="cnmp">选择一个有愿景、有良好发展平台的组织来开始自己个人职业生涯至关重要，你会追随组织成就自己的梦想。同时作为一个年轻的毕业生来说，最大的财富就是年轻，但是年轻也意味着经验的不足，任何人的成功都不是一蹴而就的，都需要付出辛勤的汗水，只有通过学习、历练才能使自己得到成长。职业生涯开始时一定要为自己设定一个目标，并坚定不移的朝着自己的目标奋进，终会实现自己的理想。</p>'+
+		'</div>'+
+		'</div>'
+		$(".containe").html(res)
+	    }
+		
+	})
+
+
+			$(document).ready(function() {
+				$(".header").load("nav.html");
+				$(".bottom").load("footer.html");
+				$(".toTop").click(function() {
+							window.scrollTo(0, 0);
+						})
+					$(".syy").click(function(){
+						location.href="index.html"
+					});
+			});
+			window.addEventListener(('orientationchange' in window ? 'orientationchange' : 'resize'), (function() {
+				function c() {
+					var d = document.documentElement;
+					var cw = d.clientWidth || 772;
+					d.style.fontSize = (20 * (cw / 375)) > 40 ? 40 + 'px' : (20 * (cw / 375)) + 'px';
+
+					var body = $("body").css("width");
+					var reg = /[a-zA-Z]/g;
+					var body1 = body.replace(reg, "");
+					// console.log(body1);
+					if(body1 < 1742 && body1 > 1400) {
+						// console.log(body1);
+						$(".line1").css("left", (body1 - 1920) / 2 - 105 + "px");
+					}
+					if(body1 > 1742) {
+						$(".line1").css("left", "-200px");
+					} else if(body1 < 1400) {
+						$(".line1").css("left", (body1 - 1920) / 2 + 160 + "px");
+					}
+
+				}
+				c();
+				return c;
+			})(), false);
+		</script>
+	</body>
+
+</html>

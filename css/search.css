@@ -1,0 +1,464 @@
+
+@media screen and (min-width:1200px){
+  .main1YD{visibility: hidden;}
+
+  .t1
+  {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom:2px solid #ccc;
+    opacity: .8;
+  }
+  .t2{font-size: 30px;color:#247E90;}
+  
+
+
+}
+
+
+@media screen and (max-width: 1200px){ 
+  .main1YD{width: 100%;margin-top: 9px;height: 500px;}
+  .main1YD>.t1
+  {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    box-sizing: border-box;
+    border-bottom:2px solid #ccc;
+    opacity: .8;
+  }
+  .t2{font-size: 30px;color:#247E90;}
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+   margin:0;
+   padding:0;
+}
+li{list-style:none;}
+
+
+
+
+/*大屏 */
+@media only screen and (min-width:1400px){
+	/*分页*/
+	.content{
+		    width: 1125px;
+    margin: 0 auto;
+    height: 50px;
+    margin-bottom: 40px;
+	}
+	.f-left {
+    width: 382px;
+    display: inline-table;
+	}
+	.fenye {
+    margin-bottom: 30px;
+    position: relative;
+    float: right;
+	}
+	.f-left>span:first-child {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background: url(../news_images/xiangzuo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 20px;
+    display: inline-table;
+    vertical-align: middle;
+	}
+	.jutifenye {
+	    display: inline-table;
+	}
+	.jutifenye>span {
+    border-radius: 50% !important;
+    font-size: 13px;
+    margin: 0 5px;
+    display: inline-table;
+	}
+	.fenye span {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-table;
+	}
+	.actives {
+    background: rgba(215, 102, 70, 1);
+    color: white;
+	}
+	.f-left>span:last-child {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background: url(../news_images/xiangyou.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 20px;
+    vertical-align: middle;
+	}
+	.f-right {
+	    line-height: 30px;
+	    font-size: 14px;
+	    width: 111px;
+	    display: inline-table;
+	    margin-left: -33px;
+	}
+	.f-right input {
+    width: 40px;
+    height: 20px;
+    border: 0;
+    border-bottom: 1px solid grey;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 30px;
+	}
+	.nsure {
+    outline: none;
+    border: none;
+    width: 44px;
+    height: 26px;
+    background: rgba(215, 102, 70, 1);
+    border-radius: 7px;
+    color: #fff;
+	}
+  /*头部*/
+  .top {
+      width: 100%;
+      height:80px;
+      top: 17px;
+      z-index: 100;
+      position: absolute;
+  }
+  .header {
+      position: relative;
+      width: 1170px;
+      margin: 0 auto;
+      background: #fff;
+  }
+  .top{z-index: 100;}
+  .grounp{cursor: pointer;}
+  .mainPC{
+  	width: 1125px;
+	  margin: 0 auto;
+	  position: relative;
+	  margin-top: 90px;
+	  margin-bottom: 70px;
+  }
+  .t1
+  {
+    width: 100%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-bottom:2px solid #ccc;
+    opacity: .8;
+    font-size: 13px;
+  }
+  .t2{font-size: 25px;color:#247E90;}
+
+  .top-header {
+      width: 1200px;
+      height: 6vw;
+      margin: auto;
+  }
+  .d1{width: 35px;height: 35px;background: url("../img/index/path-right.png") no-repeat;display: inline-table;float: right;
+    background-size: 90%;position: relative;top:-6px;cursor: pointer;
+}
+    
+}
+
+
+/* 中屏 */
+@media screen and (min-width: 992px) and (max-width: 1400px){
+	/*分页*/
+	.content{
+		    width: 900px;
+    margin: 0 auto;
+    height: 50px;
+    margin-bottom: 40px;
+	}
+	.f-left {
+    width: 382px;
+    display: inline-table;
+	}
+	.fenye {
+    margin-bottom: 30px;
+    position: relative;
+    float: right;
+	}
+	.f-left>span:first-child {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background: url(../news_images/xiangzuo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 20px;
+    display: inline-table;
+    vertical-align: middle;
+	}
+	.jutifenye {
+	    display: inline-table;
+	}
+	.jutifenye>span {
+    border-radius: 50% !important;
+    font-size: 13px;
+    margin: 0 5px;
+    display: inline-table;
+	}
+	.fenye span {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-table;
+	}
+	.actives {
+    background: rgba(215, 102, 70, 1);
+    color: white;
+	}
+	.f-left>span:last-child {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background: url(../news_images/xiangyou.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 20px;
+    vertical-align: middle;
+	}
+	.f-right {
+	    line-height: 30px;
+	    font-size: 14px;
+	    width: 111px;
+	    display: inline-table;
+	    margin-left: -33px;
+	}
+	.f-right input {
+    width: 40px;
+    height: 20px;
+    border: 0;
+    border-bottom: 1px solid grey;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 30px;
+	}
+	.nsure {
+    outline: none;
+    border: none;
+    width: 44px;
+    height: 26px;
+    background: rgba(215, 102, 70, 1);
+    border-radius: 7px;
+    color: #fff;
+	}
+  /*头部*/
+  .top {
+      width: 100%;
+      height:80px;
+      top: 17px;
+      z-index: 100;
+      position: absolute;
+  }
+  .header {
+      position: relative;
+      width: 950px;
+      margin: 0 auto;
+      background: #fff;
+  }
+  .nav{width: 900px !important;margin: 0 auto;}
+  .top{z-index: 100;}
+  .grounp{cursor: pointer;}
+  .mainPC{
+  		width: 900px;
+	    margin: 0 auto;
+	    position: relative;
+	    margin-top: 60px;
+	    margin-bottom: 60px;
+  }
+  .t1
+  {
+    width: 100%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-bottom:2px solid #ccc;
+    opacity: .8;
+    font-size: 13px;
+  }
+  .t2{font-size: 25px;color:#247E90;}
+
+  .top-header {
+      width: 1200px;
+      height: 6vw;
+      margin: auto;
+  }
+  .d1{width: 35px;height: 35px;background: url("../img/index/path-right.png") no-repeat;display: inline-table;float: right;
+    background-size: 90%;position: relative;top:-6px;cursor: pointer;
+}
+    
+}
+
+/*小屏*/
+@media only screen and (max-width:992px){
+ 	/*分页*/
+ 	.fenye {
+		width: 15.5rem;
+		height: 2rem;
+		display: flex;
+		justify-content: space-around;
+		margin: 1rem auto;
+		margin-bottom: 1.75rem;
+		padding: 0 1rem;
+		box-sizing: border-box;
+		background: -webkit-linear-gradient(left, rgba(43, 109, 222, 1), #2C9DCF);
+		/* Safari 5.1 - 6.0 */
+		background: -o-linear-gradient(right, rgba(43, 109, 222, 1), #2C9DCF);
+		/* Opera 11.1 - 12.0 */
+		background: -moz-linear-gradient(right, rgba(43, 109, 222, 1), #2C9DCF);
+		/* Firefox 3.6 - 15 */
+		background: linear-gradient(to right, rgba(43, 109, 222, 1), #2C9DCF);
+		/* 标准的语法 */
+		padding-top: 0.6rem;
+		border-radius: 0.2rem;
+	}
+	.fenye span {
+		display: block;
+		width: 0.75rem;
+		height: 0.75rem;
+		text-align: center;
+		line-height: 0.75rem;
+	}
+	.f-left {
+		display: flex;
+	}
+	.f-left>span {
+		color: rgba(215, 102, 70, 1);
+	}
+	.f-left>span:first-child {
+		width: 0.5rem;
+		height: 0.8rem;
+		margin: auto;
+		background: url('../news_images/xiangzuo.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-right: 0.5rem;
+		margin-top: 0;
+	}
+	.f-left>span:last-child {
+		width: 0.8rem;
+		height: 0.8rem;
+		margin: auto;
+		background: url('../news_images/xiangyou.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: 0.5rem;
+		margin-top: 0;
+	}
+	.jutifenye {
+		display: flex;
+	}
+	.jutifenye>span {
+		border-radius: 50% !important;
+		font-size: 12px;
+		margin: 0 0.125rem;
+		color: white;
+	}
+	.f-right {
+		width: 2.5rem;
+		line-height: 22px;
+		font-size:12px;
+		color: white;
+		height: 22px;
+		border-radius: 1rem;
+		text-align: center;
+		background: rgba(215, 102, 70, 1);
+		margin-right: 0.5rem;
+		margin-top: -0.1rem;
+	}
+	.nsure {
+		outline: none;
+        border: none;
+        width: 2.5rem;
+        height: 22px;
+        background: rgba(215, 102, 70, 1);
+        border-radius: 10px;
+        color:#fff;
+        margin-top: -0.1rem;
+	}
+	.f-right input {
+		    width: 16px;
+    height: 20px;
+    border: 0;
+    outline: none;
+    /*padding-left: 0.125rem;*/
+    /*padding-right: 0.125rem;*/
+    line-height: 20px;
+    background: rgba(215, 102, 70, 1);
+    font-size: 12px;
+	}
+	.actives {
+		background: rgba(215, 102, 70, 1);
+		color: white;
+	}
+  /*.logo{width: 112px !important;height: 49px !important;
+    margin-top: 15px !important;
+  }*/
+  .top {
+    width: 100%;
+    height: 3rem;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+}
+.header {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 750px;
+}
+  .mainPC{
+  	  width: 100%;
+	    margin: 0 auto;
+	    position: relative;
+	    margin-top: 70px;
+	    margin-bottom: 50px;
+  }
+  .t1
+  {
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-bottom:1px solid #ccc;
+    opacity: .8;
+    font-size: 11px;
+  }
+  .t2{font-size: 20px;color:#247E90;}
+
+  .top-header {
+      width: 1200px;
+      height: 6vw;
+      margin: auto;
+  }
+  .d1{width: 25px;height: 25px;background: url("../img/index/path-right.png") no-repeat;display: inline-table;float: right;
+    background-size: 90%;position: relative;top:-6px;cursor: pointer;
+}
+    
+}

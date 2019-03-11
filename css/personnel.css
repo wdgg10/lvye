@@ -1,0 +1,650 @@
+	html,
+	body {
+		margin: 0;
+		overflow-x: hidden;
+	}
+	a{
+		text-decoration:none;
+	}
+	.ul-content{
+		text-align: left;
+	}
+	@media only screen and (min-width: 1400px) {
+		.lik1,.lik2,.lik3,.lik4,.lik5,.lik6,.lik7{cursor: pointer;}
+		.toTop {
+		position: fixed;
+	    right: 18px;
+	    bottom: 145px;
+	    z-index: 1000;
+	    width: 45px;
+	    height: 45px;
+	    background: #F5F5F5;
+	    cursor: pointer;
+		}
+		.syy{
+			position: fixed;
+			bottom: 100px;
+			right: 18px;
+			z-index: 1000;
+			width: 45px;
+			height: 45px;
+			background: #F5F5F5;
+			text-align: center;
+			cursor: pointer;
+		}
+		.toTop img {
+			width: 100%;
+			height: 100%;
+		}
+		.syy img {
+			width: 78%;
+		}
+		.but-confirm{
+		    outline: none;
+		    border: none;
+		    background: transparent;
+		    width: 44px;
+		    height: 26px;
+		    background: rgba(215, 102, 70, 1);
+		    border-radius: 7px;
+		    color: #fff;
+		    margin-left: 14px;
+		}
+		.sm_banner,.arrow,.sm_f-right{display:none;}
+		.li-content p {
+		    color: #000;
+		}
+		li a:hover {
+			text-decoration:none;
+		}
+		.mobile {
+			display: none;
+		}
+		.containers {
+			width: 1170px;
+			margin: 0 auto;
+			margin-bottom: 90px;
+		}
+		.header {
+			position: relative;
+			width: 1200px;
+			margin: 0 auto;
+			height: 100%;
+		}
+		.content h2 {
+			font-size: 30px;
+			font-weight: 600;
+		}
+		.content h3 {
+			font-size: 20px;
+		}
+		.light {
+			color: #4A4A4A;
+		}
+		.top {
+			width: 100%;
+			top: 17px;
+			z-index: 100;
+			position: absolute;
+		}
+		.banner {
+			background: url(../img/joinUs/banner.png)no-repeat;
+			width: 100%;
+			background-size: cover;
+			height: 741px;
+			background-position: center;
+		}
+		.line1 {
+			height: 1341px;
+			width: 1742px;
+			left: -370px;
+			position: relative;
+			margin: 0 auto;
+			margin-top: -1119px;
+			display: block;
+		}
+		.banner h1 {
+			font-size: 52px;
+			color: #023093;
+			font-weight: 600;
+			position: relative;
+			margin: 0 auto;
+			width: 223px;
+			top: 169px;
+			left: -354px;
+		}
+		.ul-content li {
+			display: inline-table;
+			margin-left: 13px;
+			margin-right: 13px;
+			box-shadow: 5px 5px 5px rgba(152, 152, 152, 0.2), 5px -5px 5px rgba(152, 152, 152, 0.2), -5px 5px 5px rgba(152, 152, 152, 0.2), -5px -5px 5px rgba(152, 152, 152, 0.2);
+			margin-top: 50px;
+		}
+		#staff {
+			width: 1200px;
+			margin: 0 auto;
+			text-align: center;
+			margin-top: -169px;
+			position: relative;
+			z-index: 2;
+		}
+		.line-b {
+			height: 2px;
+			width: 20px;
+			background-color: #000;
+			margin: 0 auto;
+		}
+		#staff li img {
+			width: 350px;
+		}
+		.li-content {
+			background-color: #fff;
+			text-align: left;
+			padding: 22px 20px;
+			width: 350px;
+			height: 200px;
+		}
+		.li-content .introduce {
+			font-size: 24px;
+		}
+		.li-content .line-bottom {
+			height: 2px;
+			width: 20px;
+			background-color: #b75656;
+		}
+		.name {
+			font-weight: 600;
+			margin: 8px 0;
+		}
+		.introduce span {
+			color: #2d7b79;
+			font-weight: bold;
+		}
+		.f-left {
+			width: 430px;
+			display: inline-table;
+		}
+		.f-left>span:first-child {
+			width: 20px;
+			height: 20px;
+			margin: auto;
+			background: url(../img/joinUs/personnel/left-path.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			margin-right: 20px;
+			display: inline-table;
+			position: relative;
+			top: 4px;
+		}
+		.f-left>span:last-child {
+			width: 20px;
+			height: 20px;
+			margin: auto;
+			background: url(../img/joinUs/personnel/right-path.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			margin-left: 20px;
+			display: inline-table;
+			position: relative;
+			top: 4px;
+		}
+		.jutifenye {
+			display: inline-table;
+		}
+		.jutifenye>a {
+			border-radius: 20px !important;
+			font-size: 4px;
+			margin: 0 10px;
+			display: inline-table;
+			width: 16px;
+			height: 16px;
+			text-align: center;
+			    color: #000;
+			    cursor: pointer;
+		}
+		.paging .actives {
+			background: rgba(215, 102, 70, 1);
+			color: white;
+		}
+		.f-right {
+			line-height: 30px;
+			font-size: 14px;
+			width: 111px;
+			display: inline-table;
+		}
+		.f-right input {
+			width: 40px;
+			height: 20px;
+			border: 0;
+			border-bottom: 1px solid grey;
+			outline: none;
+			padding-left: 5px;
+			padding-right: 5px;
+			line-height: 30px;
+		}
+		.paging {
+			text-align: right;
+			margin: 60px 30px;
+		}
+	}
+	
+	@media only screen and (min-width: 992px) and (max-width: 1400px) {
+		.lik1,.lik2,.lik3,.lik4,.lik5,.lik6,.lik7{cursor: pointer;}
+		.toTop {
+        position: fixed;
+        bottom: 140px;
+        right: 18px;
+        z-index: 1000;
+        width: 40px;
+        height: 40px;
+        background: #F5F5F5;
+      }
+      .syy{
+        position: fixed;
+        bottom: 100px;
+        right: 18px;
+        z-index: 1000;
+        width: 40px;
+        height: 40px;
+        background: #F5F5F5;
+        text-align: center;
+      }
+      .syy img {
+            width: 80%;
+        margin-top: 4px;
+        cursor: pointer;
+      }
+      .toTop img {
+        height: 100%;
+        cursor: pointer;
+      }
+		.but-confirm{
+		    outline: none;
+		    border: none;
+		    background: transparent;
+		    width: 44px;
+		    height: 26px;
+		    background: rgba(215, 102, 70, 1);
+		    border-radius: 7px;
+		    color: #fff;
+		    margin-left: 14px;
+		}
+		.sm_banner,.arrow,.sm_f-right{display:none;}
+		li a:hover {
+			text-decoration:none;
+		}
+		.mobile {
+			display: none;
+		}
+		.li-content p {
+		    color: #000;
+		}
+		.containers{
+			width: 900px;
+			margin: 0 auto;
+			margin-bottom: 80px;
+		}
+		.header {
+			position: relative;
+			width: 950px;
+			margin: 0 auto;
+			height: 100%;
+		}
+		.content h2 {
+			font-size: 26px;
+			font-weight: 600;
+		}
+		.content h3 {
+			font-size: 20px;
+		}
+		.light {
+			color: #4A4A4A;
+		}
+		.top {
+			width: 100%;
+			top: 17px;
+			z-index: 100;
+			position: absolute;
+		}
+		.banner {
+			background: url(../img/joinUs/banner.png)no-repeat;
+			width: 100%;
+			background-size: cover;
+			height: 556px;
+			background-position: center;
+		}
+		.line1 {
+			height: 1005.75px;
+			width: 1306.5px;
+			left: -370px;
+			position: relative;
+			margin: 0 auto;
+			 margin-top: -822px;
+			display: block;
+		}
+		.banner h1 {
+			font-size: 38px;
+			color: #023093;
+			font-weight: 600;
+			position: relative;
+			margin: 0 auto;
+			width: 223px;
+			top: 144px;
+			left: -245px;
+		}
+		.ul-content li {
+			display: inline-table;
+			margin-left: 18px;
+			margin-right: 18px;
+			box-shadow: 5px 5px 5px rgba(152, 152, 152, 0.2), 5px -5px 5px rgba(152, 152, 152, 0.2), -5px 5px 5px rgba(152, 152, 152, 0.2), -5px -5px 5px rgba(152, 152, 152, 0.2);
+			margin-top: 38px;
+		}
+		#staff {
+			width: 1200px;
+			margin: 0 auto;
+			text-align: center;
+			margin-top: -150px;
+			position: relative;
+			z-index: 2;
+		}
+		.line-b {
+			height: 2px;
+			width: 20px;
+			background-color: #000;
+			margin: 0 auto;
+		}
+		#staff li img {
+			width: 260px;
+		}
+		.li-content {
+			background-color: #fff;
+			text-align: left;
+			padding: 24px 20px;
+			width: 260px;
+			height: 190px;
+		}
+		.li-content .introduce {
+			font-size: 16px;
+		}
+		.li-content .line-bottom {
+			height: 2px;
+			width: 20px;
+			background-color: #b75656;
+		}
+		.name {
+			font-weight: 600;
+			margin: 8px 0;
+		}
+		.introduce span {
+			color: #2d7b79;
+			font-weight: bold;
+		}
+		.f-left {
+			width: 430px;
+			display: inline-table;
+		}
+		.f-left>span:first-child {
+			width: 20px;
+			height: 20px;
+			margin: auto;
+			background: url(../img/joinUs/personnel/left-path.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			margin-right: 20px;
+			display: inline-table;
+			position: relative;
+			top: 4px;
+		}
+		.f-left>span:last-child {
+			width: 20px;
+			height: 20px;
+			margin: auto;
+			background: url(../img/joinUs/personnel/right-path.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			margin-left: 20px;
+			display: inline-table;
+			position: relative;
+			top: 4px;
+		}
+		.jutifenye {
+			display: inline-table;
+		}
+		.jutifenye>a {
+			border-radius: 20px !important;
+			font-size: 12px;
+			margin: 0 10px;
+			display: inline-table;
+			width: 16px;
+			height: 16px;
+			text-align: center;
+			    color: #000;
+			    cursor: pointer;
+		}
+		.paging .actives {
+			background: rgba(215, 102, 70, 1);
+			color: white;
+		}
+		.f-right {
+			line-height: 30px;
+			font-size: 14px;
+			width: 111px;
+			display: inline-table;
+		}
+		.f-right input {
+			width: 40px;
+			height: 24px;
+			border: 0;
+			border-bottom: 1px solid grey;
+			outline: none;
+			padding-left: 5px;
+			padding-right: 5px;
+			line-height: 30px;
+		}
+		.paging {
+			text-align: right;
+			margin: 60px 30px;
+		}
+		.li-content p{
+			font-size: 13px;
+		}
+	}
+	
+	@media only screen and (min-width: 500px) and (max-width: 992px) {
+		.title_small {
+			font-size: 19px;
+		}
+		.strategy_content_title {}
+		.strategy_two {
+			padding-top: 2rem;
+		}
+		.strategy_three {
+			padding-top: 3rem;
+		}
+	}
+
+
+@media only screen and (max-width: 991px){
+	
+	.toTop {
+		position: fixed;
+		bottom: 0px;
+		right: 0px;
+		z-index: 1000;
+		width: 40px;
+		height: 40px;
+		background: #F5F5F5;
+	}
+	.syy{
+		position: fixed;
+		bottom: 40px;
+		right: 0px;
+		z-index: 1000;
+		width: 40px;
+		height: 40px;
+		background: #F5F5F5;
+		text-align: center;
+	}
+	.syy img {
+		    width: 80%;
+    margin-top: 4px;
+    cursor: pointer;
+	}
+	.toTop img {
+		height: 100%;
+		cursor: pointer;
+	}
+	.but-confirm{
+		display: inline-block;
+	    font-size: 12px;
+	    color: #fff;
+	    background: #E65F39;
+	    height: 20px;
+	    line-height: 20px;
+	    width: 2.3rem;
+	    border-radius: 12px;
+	    border: none;
+	        margin-left: 0.5rem;
+	}
+	.top {
+       width: 100%;
+       height: 3rem;
+       z-index: 100;
+       position: absolute;
+    }
+   .header {
+       position: relative;
+       width: 100%;
+       margin: 0 auto;
+       height: 100%;
+       max-width: 750px;
+    }
+    .banner h1,.line1{display:none;}
+    #staff h2{
+    	font-size:26px;
+    	color: #023093;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 39px;
+    }
+    .containers ul li{
+    	box-shadow: 0px 6px 22px rgba(0,0,0,0.2);
+    	width:80%;
+    	margin: 44px auto;
+    }
+    .containers ul li img{
+    	width:100%;
+    }
+    .li-content{
+    	color: #000;
+        padding-top: 24px 20px;
+        padding: 20px;
+        height: 9rem;
+    }
+    .introduce{
+    	font-size: 16px;
+    	position:relative;
+        color: #000;
+    }
+    .introduce::after{
+    	content:"";
+        position:absolute;
+        width: 0.8rem;
+        height: 2px;
+        background: #E65F39;
+        left: 0;
+        bottom: -13px;
+    }
+    .introduce span{
+    	color: #2d7b79;
+    	font-weight:bold;
+    }
+    .name{
+    	margin-top: 21px;
+        font-size: 14px;
+        color: #000;
+    }
+    .version{
+    	font-size: 12px;
+        margin-top: -7px;
+        color: #000;
+    }
+    .arrow{
+    	width: 5%!important;
+    	margin-top: -8px;
+    }
+
+    
+    .paging{
+    	text-align:center;
+    	margin-top: -19px;
+    	margin-bottom: 28px;
+    }
+    .f-right{display:none;}
+    .f-left {
+        display: inline-table;
+        margin-right: 0.5rem;
+    }
+    .f-left>span:first-child {
+        width: 13px;
+        height: 13px;
+        margin: auto;
+        background: url(../img/joinUs/personnel/left-path.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-right: 0.1rem;
+        display: inline-table;
+        position: relative;
+        top: 4px;
+    }
+    .f-left>span:last-child {
+        width: 13px;
+        height: 13px;
+        margin: auto;
+        background: url(../img/joinUs/personnel/right-path.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 0.1rem;
+        display: inline-table;
+        position: relative;
+        top: 4px;
+    }
+    .jutifenye {
+        display: inline-table;
+        position: relative;
+        top: .1rem;
+    }
+    .jutifenye>a {
+        border-radius: 20px !important;
+        font-size: 14px;
+        margin: 0 0.1rem;
+        display: inline-table;
+        width: 16px;
+        height: 16px;
+        text-align: center;
+        color: #000;
+        cursor: pointer;
+        line-height: 16px;
+    }
+    .paging .actives {
+        background: rgba(215, 102, 70, 1);
+        color: white;
+    }
+    .sm_f-right{
+            display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    background: #E65F39;
+    height: 20px;
+    line-height: 20px;
+    width: 3rem;
+    border-radius: 12px;
+    }
+    .sm_f-right input{
+    	    border: none;
+    width: 1rem;
+    background: #E65F39;
+    text-align: center;
+    outline: none;
+    }
+}
